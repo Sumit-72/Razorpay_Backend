@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment files
+.env
+.env.test
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: Build output
+dist/
+build/
+
+# Optional: IDE settings
+.vscode/
+.idea/
+
+# Optional: Coverage reports
+coverage/
+
+# Optional: TypeScript
+*.tsbuildinfo
