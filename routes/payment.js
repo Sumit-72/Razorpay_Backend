@@ -64,11 +64,12 @@ router.post('/verify', async (req, res) => {
             });
 
             // Save Payment 
-            await payment.save();
+            //await payment.save();
 
             // Send Message 
             res.json({
-                message: "Payement Successfully"
+                message: "Payement Successfully",
+                success: true,
             });
         }
     } catch (error) {
