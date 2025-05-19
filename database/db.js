@@ -2,7 +2,7 @@ import { connect } from "mongoose";
 
 const connectToMongo = async () => {
     try {
-        await connect('mongodb://localhost:27017', {
+        await connect('mongodb+srv://Psquare:mongoDBatlas@mernapp.xh4pt.mongodb.net/?retryWrites=true&w=majority&appName=MERNapp', {
             dbName: "paymentGateway",
         });
         console.log("---***Database Connected Successfully***---")
