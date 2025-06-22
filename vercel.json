@@ -12,7 +12,7 @@
       "dest": "/index.js",
       "methods": ["GET", "POST", "OPTIONS"],
       "headers": {
-        "Access-Control-Allow-Origin": "https://dequeue-scanbot.vercel.app",
+        "Access-Control-Allow-Origin": "http://localhost:5173/",
         "Access-Control-Allow-Credentials": "true",
         "Access-Control-Allow-Headers": "Content-Type"
       }
