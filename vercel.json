@@ -10,12 +10,14 @@
     {
       "src": "/(.*)",
       "dest": "/index.js",
-      "methods": ["GET", "POST", "OPTIONS"],
+      "methods": ["GET", "POST", "PATCH", "PUT", "DELETE", "OPTIONS"],
       "headers": {
         "Access-Control-Allow-Origin": "https://dequeue-scanbot.vercel.app",
         "Access-Control-Allow-Credentials": "true",
-        "Access-Control-Allow-Headers": "Content-Type"
+        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS"
       }
     }
   ]
 }
+
